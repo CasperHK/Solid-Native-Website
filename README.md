@@ -23,22 +23,22 @@
 
 ## 🛠 本地開發 (Development)
 
-### 1. 複製專案
-
-      ```bash
-      git clone https://github.com
-      cd solid-native-site
-      ```
+1. 複製專案
+   ```bash
+   git clone https://github.com
+   cd solid-native-site
+   ```
 2. 安裝依賴
-    ```bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
 4. 啟動開發伺服器
-    ```Bash
-    pnpm dev
-    ```
-📁 目錄結構 (Project Structure)
+   ```Bash
+   pnpm dev
+   ```
+
+## 📁 目錄結構 (Project Structure)
 ```
 text/src/components     # 包含高性能的 UI 元件（如 Benchmark 圖表）
 /src/pages          # 官網各分頁（Home, Docs, Showcase）
