@@ -12,7 +12,7 @@ export default function App() {
       <Router
         root={(props) => (
           <MetaProvider>
-            <Title>VibeStack Dashboard</Title>
+            <Title>Solid Native — Cross-Platform Mobile Framework</Title>
             <Suspense>{props.children}</Suspense>
           </MetaProvider>
         )}
