@@ -1,0 +1,50 @@
+# Bun
+*.bun
+.bun/
+bun.lockb
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Turborepo
+.turbo/
+
+# SolidStart / Vinxi
+.solid/
+.vinxi/
+.output/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+docker/.env.prod
+
+# Drizzle
+drizzle/meta/_journal.json
+
+# Docker
+docker/*.log
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
