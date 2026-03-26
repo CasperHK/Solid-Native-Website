@@ -257,3 +257,38 @@ html.light select option {
   background-color: #ffffff;
   color: #0f172a;
 }
+
+/* ===== Landing Page Specific ===== */
+
+/* Code block monospace */
+pre code {
+  font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Landing page anchor offset for fixed header */
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* Neon text glow utility */
+.text-glow-cyan {
+  text-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+}
+
+/* Feature card hover transition */
+.feature-card-hover {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+}
+
+.feature-card-hover:hover {
+  transform: translateY(-4px);
+}
